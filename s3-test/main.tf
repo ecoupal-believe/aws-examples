@@ -3,5 +3,5 @@ terraform {
 }
 
 resource "aws_s3_bucket" "test" {
-  bucket = "test-123"
+  bucket = var.bucket-name
 }
